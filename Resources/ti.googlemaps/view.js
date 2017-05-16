@@ -9,7 +9,7 @@ function MapView(params) {
 	mapView.setAutoresizingMask(UIViewAutoresizingNone);
 }
 
-MapView.prototype.addAnnotation = function addAnnotation() {
+MapView.prototype.addAnnotation = function addAnnotation(annotation) {
 	annotation.setMap(mapView);
 };
 

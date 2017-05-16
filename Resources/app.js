@@ -11,9 +11,9 @@ var mapView = GoogleMaps.createView({
 });
 
 var annotation = GoogleMaps.createAnnotation({
-    latitude: 37.01,
-    longitude: -22.01,
-    title: 'Hello World!'
+    latitude: 52.279911,
+    longitude: 8.047179,
+    title: 'Hyperloop rocks!'
 });
 
 mapView.addAnnotation(annotation.getInstance());
