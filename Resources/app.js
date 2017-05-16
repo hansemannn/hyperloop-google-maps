@@ -7,8 +7,16 @@ var win = Ti.UI.createWindow({
 });
 
 var mapView = GoogleMaps.createView({
-    type: GoogleMaps.MAP_TYPE_TERRAIN
+    type: GoogleMaps.MAP_TYPE_NORMAL
 });
 
-win.add(mapView);
+var annotation = GoogleMaps.createAnnotation({
+    latitude: 37.01,
+    longitude: -22.01,
+    title: 'Hello World!'
+});
+
+mapView.addAnnotation(annotation.getInstance());
+
+win.add(mapView.getInstance());
 win.open();

@@ -1,0 +1,18 @@
+{
+  "name": "ti.googlemaps",
+  "version": "1.0.0",
+  "description": "Use the GoogleMaps SDK in Axway Titanium with Hyperloop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyperloop",
+    "googlemaps",
+    "titanium",
+    "axway",
+    "appcelerator"
+  ],
+  "author": "Hans Knöchel",
+  "license": "MIT"
+}
