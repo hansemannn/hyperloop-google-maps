@@ -1,59 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">
-	<id>com.appc.googlemaps.hyperloop</id>
-	<name>test_googlemaps_hl</name>
-	<version>1.0</version>
-	<publisher>not specified</publisher>
-	<url></url>
-	<description></description>
-	<copyright>not specified</copyright>
-	<icon>appicon.png</icon>
-	<fullscreen>false</fullscreen>
-	<navbar-hidden>false</navbar-hidden>
-	<analytics>true</analytics>
-	<guid>01107e2c-7b27-4008-b27c-d9cd1119440f</guid>
-	<property name="ti.ui.defaultunit" type="string">dp</property>
-	<property name="run-on-main-thread" type="bool">true</property>
-	<ios>
-		<enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
-		<use-app-thinning>true</use-app-thinning>
-		<plist>
-			<dict>
-				<key>UISupportedInterfaceOrientations~iphone</key>
-				<array>
-					<string>UIInterfaceOrientationPortrait</string>
-				</array>
-				<key>UISupportedInterfaceOrientations~ipad</key>
-				<array>
-					<string>UIInterfaceOrientationPortrait</string>
-					<string>UIInterfaceOrientationPortraitUpsideDown</string>
-					<string>UIInterfaceOrientationLandscapeLeft</string>
-					<string>UIInterfaceOrientationLandscapeRight</string>
-				</array>
-				<key>UIRequiresPersistentWiFi</key>
-				<false/>
-				<key>UIPrerenderedIcon</key>
-				<false/>
-				<key>UIStatusBarHidden</key>
-				<false/>
-				<key>UIStatusBarStyle</key>
-				<string>UIStatusBarStyleDefault</string>
-			</dict>
-		</plist>
-	</ios>
-	<android xmlns:android="http://schemas.android.com/apk/res/android">
-	</android>
-	<plugins>
-		<plugin>hyperloop</plugin>
-	</plugins>
-	<modules>
-		<module>hyperloop</module>
-	</modules>
-	<deployment-targets>
-		<target device="android">false</target>
-		<target device="ipad">true</target>
-		<target device="iphone">true</target>
-		<target device="mobileweb">false</target>
-	</deployment-targets>
-	<sdk-version>6.2.0</sdk-version>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.appc.googlemaps.hyperloop</id>
+  <name>test_googlemaps_hl</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url/>
+  <description/>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>8ba356d0-a4df-4ea5-9bbb-5f6d45c8c64f</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  </android>
+  <plugins>
+    <plugin>hyperloop</plugin>
+  </plugins>
+  <modules>
+    <module>hyperloop</module>
+  </modules>
+  <deployment-targets>
+    <target device="android">false</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+    <target device="mobileweb">false</target>
+  </deployment-targets>
+  <sdk-version>6.2.0</sdk-version>
+  <property name="appc-app-id" type="string">591af020a118052fe28560a0</property>
 </ti:app>

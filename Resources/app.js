@@ -1,5 +1,7 @@
 var GoogleMaps = require('ti.googlemaps');
 
+GoogleMaps.setAPIKey('AIzaSyAKQ1T37XqCnU2aAFNIj6R6RhaEGvZttX0');
+
 var win = Ti.UI.createWindow({
     backgroundColor: '#fff'
 });
