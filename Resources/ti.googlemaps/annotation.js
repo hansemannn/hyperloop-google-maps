@@ -9,7 +9,7 @@ function Annotation(params) {
 	annotation.setPosition(positionFromParameters(params));
 	
 	// Set title if passed to the constructor
-	// TODO: Find a more flexible way to handle constructor setters. ES6?
+	// TODO: Find a more flexible way to handle constructor setters
 	params.title && annotation.setTitle(params.title);
 }
 

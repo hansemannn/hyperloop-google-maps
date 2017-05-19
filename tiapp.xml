@@ -2,7 +2,7 @@
 <ti:app 
   xmlns:ti="http://ti.appcelerator.org">
   <id>com.appc.googlemaps.hyperloop</id>
-  <name>test_googlemaps_hl</name>
+  <name>GoogleMaps</name>
   <version>1.0</version>
   <publisher>not specified</publisher>
   <url/>
@@ -57,6 +57,6 @@
     <target device="iphone">true</target>
     <target device="mobileweb">false</target>
   </deployment-targets>
-  <sdk-version>6.2.0</sdk-version>
+  <sdk-version>6.0.4.GA</sdk-version>
   <property name="appc-app-id" type="string">591af020a118052fe28560a0</property>
 </ti:app>
